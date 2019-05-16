@@ -1,2 +1,2 @@
-# thequantumblockchainproject
-The Quantum Blockchain Project repository
+# The Quantum Blockchain Project
+The Quantum Blockchain Project's repository
