@@ -1,0 +1,10 @@
+cython
+scipy
+qutip
+cqc
+simulaqron
+matplotlib
+jupyterlab
+
+# nose
+# spyder

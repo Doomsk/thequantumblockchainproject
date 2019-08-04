@@ -4,36 +4,37 @@ The Quantum Blockchain Project's repository
 
 
 ## Setup to Work on Quantum Circuits and Simulation
-* We use Python 3.6+ version and some specific libraries such as QuTiP and SimulaQron
-* First it is recommended to install Anaconda distribution (Python 3.7+ version) [[link](https://www.anaconda.com/distribution/)]
-* After installing, it will be needed to configure the environment to work on and install the QuTiP library [[link](http://qutip.org/)] following the steps:
-* Open the terminal (or powershell in Windows) and setup an environment for the quantum projects by typing:
+* We use Python 3.6+ version, `pip`, `virtualenv`  and some specific libraries such as QuTiP and SimulaQron.
+** If you don't have python installed, [this](https://docs.python-guide.org/starting/installation/) guide should help you.
+** For `pip` installation, you can follow [this](https://pip.pypa.io/en/latest/installing/) guide.
+** And, for `virtualenv` installation, you can follow [this](https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv) guide.
+
+
+* Open the terminal (or PowerShell in Windows) and setup an environment for the quantum projects by typing:
 ```
-conda create -n _choose-a-name-for-the-env-here_
+make env
+```
+* Now, activate this new environment:
+```
+make activate
 ```
 * Then you have to install the recommended libraries by typing on terminal:
 ```
-conda install -c conda-forge numpy scipy cython matplotlib nose jupyter notebook spyder
-```
-* Update your conda
-```
-conda update conda
-```
-* Install qutip
-```
-conda install -c conda-forge qutip
+make install
 ```
 * This should be enough to start programming in Python
-
 
 ## Additional Notes
 * To work on a new terminal or to open the environment after restarting the computer, type:
 ```
-source activate _the-name-you-gave-for-the-env_
+make activate
 ```
 * To work on Jupyter, open the terminal and type:
 ```
-source activate _the-name-you-gave-for-the-env_
-jupyter notebook
+make jupyter
 ```
 * A tab will open on your default browser
+* To work on SimulaQron, open the terminal and type:
+```
+make simulaqron
+```
