@@ -5,9 +5,9 @@ The Quantum Blockchain Project's repository
 
 ## Setup to Work on Quantum Circuits and Simulation
 * We use Python 3.6+ version, `pip`, `virtualenv`  and some specific libraries such as QuTiP and SimulaQron.
-** If you don't have python installed, [this](https://docs.python-guide.org/starting/installation/) guide should help you.
-** For `pip` installation, you can follow [this](https://pip.pypa.io/en/latest/installing/) guide.
-** And, for `virtualenv` installation, you can follow [this](https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv) guide.
+  * If you don't have python installed, [this](https://docs.python-guide.org/starting/installation/) guide should help you.
+  * For `pip` installation, you can follow [this](https://pip.pypa.io/en/latest/installing/) guide.
+  * And, for `virtualenv` installation, you can follow [this](https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv) guide.
 
 
 * Open the terminal (or PowerShell in Windows) and setup an environment for the quantum projects by typing:
